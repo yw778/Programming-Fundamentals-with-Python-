@@ -1,0 +1,64 @@
+Lesson 2 : use functions
+functions, using classes, making classes
+
+import class -> class.xxx(call the function)
+
+no declaration of variables
+
+google : python standard library -> module -> function
+
+abstraction -> hidding details
+
+for .. in ..:
+os.chdir()  os.getcwd(); os.rename()
+
+python all lowercase no uppercase
+
+error in python -> exception!
+
+python name convention:  xx_xx_xx_xx 全部小写
+
+function a():
+	ssss
+
+python architecture
+
+module(file) -> def + class(def + variable)
+
+class  
+__init__() -> constructor call module.classname() -> make an instance of the class 
+
+range(optional start,  stop)  start <= i < stop
+
+twilio -> external python packages
+
+twilio is the module, rest is a folder inside twlio, and inside rest folder there is init file contains a class
+
+build - in function open()
+
+class Movie():
+
+__init__ -> __xxxx__ the identifier is reserved in python 
+
+__init__(self)  self is the object being created like this!
+
+self.xxx = ? xxx -> instance variable
+
+instance method :
+	def  ssss(self)
+
+class variable:
+ 
+class A():
+	CLASS_VARIABLE = "sss" # shared by all instances
+
+predifined class variable __doc__   __name__:class name  __module__:file name
+
+String 和 int 一起print的时候int要str(int)
+
+
+inheritance -> class Child(Parent):
+
+inherite instance varibales :  Parent.__init__(xx,xx,xx,xx)
+inherite instance methods: 直接可以用 不用在子类中定义
+method overidding: 直接在子类里面定义父类已经定义的方法
